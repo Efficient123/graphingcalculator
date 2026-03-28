@@ -1,2 +1,3 @@
 # graphingcalculator
-A graphing calculator in Minecraft!
+Please use !list when you join the world.
+Turn on Beta APIs.
