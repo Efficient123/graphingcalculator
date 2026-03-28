@@ -1,0 +1,32 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Graphing Calculator",
+        "description": "Calculates and plots graph in Minecraft.",
+        "uuid": "113332ea-5575-48e0-9407-39ab8101ae09",
+        "version": "1.0.0",
+        "min_engine_version": [
+            1,
+            21,
+            114
+        ]
+    },
+    "modules": [
+        {
+            "uuid": "f538122e-4329-49f3-ab45-bf2adcecb4b3",
+            "version": "1.0.0",
+            "type": "script",
+            "language": "javascript",
+            "entry": "scripts/main.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "2.7.0-beta"
+        }
+    ],
+    "capabilities": [
+        "script_eval"
+    ]
+}
